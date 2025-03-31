@@ -9,12 +9,15 @@
 </head>
 <body>
     <div id="app">
-        <input type="text" v-model="boxBG">
-        <button @click="showBorder = !showBorder">Border Ekle/Ekleme</button>
-        <button @click="redBg = !redBg">RedBG Ekle/Ekleme</button>
-        <div class="box" :style="{ backgroundColor : boxBG }" :class="boxClasses" ></div>
-    </div>
+        <input type="text" v-model="bgColor">
+        <br>
+        <br>
+        <button @click="showBorder = !showBorder" >Border Ekle/Ekleme</button>
+        <br>
+        <button @click="redBg = !redBg">redBg add/remove</button>
+        <div class="box" :style="{backgroundColor: bgColor}" :class="boxClasses"></div>
 
+    </div>
 
     <script src="app.js"></script>
 </body>
