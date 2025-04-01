@@ -1,21 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            todoList: [{
-                "id": 1743520664303,
-                "text": "fvf",
-                "checked": false
-            },
-            {
-                "id": 1743520665977,
-                "text": "vfvfv",
-                "checked": false
-            },
-            {
-                "id": 1743520667905,
-                "text": "vfvfv",
-                "checked": false
-            }],
+            todoList: [],
             input: '',
         }
     },
